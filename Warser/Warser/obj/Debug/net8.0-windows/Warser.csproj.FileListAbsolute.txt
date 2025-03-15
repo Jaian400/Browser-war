@@ -24,4 +24,5 @@ C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\obj\Debug\net8.0-windows\
 C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\obj\Debug\net8.0-windows\Warser.pdb
 C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\obj\Debug\net8.0-windows\Warser.genruntimeconfig.cache
 C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\obj\Debug\net8.0-windows\ref\Warser.dll
+C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\obj\Debug\net8.0-windows\Warser.sourcelink.json
 C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\obj\Debug\net8.0-windows\Warser.Main.resources
