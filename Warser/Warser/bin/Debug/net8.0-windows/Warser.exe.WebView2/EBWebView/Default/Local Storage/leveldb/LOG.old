@@ -1,3 +1,5 @@
-2025/03/15-23:37:09.833 57f4 Reusing MANIFEST C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/03/15-23:37:09.852 57f4 Recovering log #3
-2025/03/15-23:37:09.861 57f4 Reusing old log C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000003.log 
+2025/03/16-12:42:25.403 4c28 Reusing MANIFEST C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/03/16-12:42:25.422 4c28 Recovering log #33
+2025/03/16-12:42:25.445 4c28 Reusing old log C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000033.log 
+2025/03/16-12:42:48.074 42f4 Level-0 table #36: started
+2025/03/16-12:42:48.091 42f4 Level-0 table #36: 69168 bytes OK

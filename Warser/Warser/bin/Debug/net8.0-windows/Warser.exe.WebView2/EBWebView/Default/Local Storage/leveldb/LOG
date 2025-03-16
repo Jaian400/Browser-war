@@ -1,3 +1,17 @@
-2025/03/15-23:38:01.079 5268 Reusing MANIFEST C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/03/15-23:38:01.105 5268 Recovering log #3
-2025/03/15-23:38:01.121 5268 Reusing old log C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000003.log 
+2025/03/16-12:43:42.250 3a44 Reusing MANIFEST C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/03/16-12:43:42.268 3a44 Recovering log #33
+2025/03/16-12:43:42.269 3a44 Level-0 table #35: started
+2025/03/16-12:43:42.287 3a44 Level-0 table #35: 69168 bytes OK
+2025/03/16-12:43:42.288 3a44 Recovering log #35
+2025/03/16-12:43:42.303 3a44 Reusing old log C:\Users\JP\Documents\GitHub\Browser-war\Warser\Warser\bin\Debug\net8.0-windows\Warser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000035.log 
+2025/03/16-12:43:42.307 3a44 Delete type=0 #33
+2025/03/16-12:43:42.307 3a44 Delete type=2 #36
+2025/03/16-12:43:42.316 3a44 Compacting 4@0 + 1@1 files
+2025/03/16-12:43:42.347 3a44 Generated table #36@0: 34 keys, 73957 bytes
+2025/03/16-12:43:42.348 3a44 Compacted 4@0 + 1@1 files => 73957 bytes
+2025/03/16-12:43:42.348 3a44 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/03/16-12:43:42.351 3a44 Delete type=2 #26
+2025/03/16-12:43:42.352 3a44 Delete type=2 #28
+2025/03/16-12:43:42.352 3a44 Delete type=2 #30
+2025/03/16-12:43:42.352 3a44 Delete type=2 #32
+2025/03/16-12:43:42.352 3a44 Delete type=2 #35

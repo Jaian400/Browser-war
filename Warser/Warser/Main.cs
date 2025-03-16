@@ -20,6 +20,7 @@ namespace Warser
             InitializeWebView();
             this.FormBorderStyle = FormBorderStyle.Sizable;
             this.WindowState = FormWindowState.Maximized;
+            this.AutoScaleMode = AutoScaleMode.Dpi;
 
             //this.TopMost = true;
         }
@@ -27,28 +28,56 @@ namespace Warser
         private void Main_Load(object sender, EventArgs e)
         {
 
-
         }
         private async void InitializeWebView()
         {
             await webView21.EnsureCoreWebView2Async(null);
-            webView21.Source = new Uri("https://www.pornhub.com");
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            webView21.Source = new Uri("https://www.google.com");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string searchQuery = txt_search.Text;
 
+            if (!string.IsNullOrWhiteSpace(searchQuery))
+            {
+                if (!searchQuery.Contains("."))
+                {
+                    webView21.Source = new Uri("https://www.google.com/search?q=" + Uri.EscapeDataString(searchQuery));
+                }
+                else
+                {
+                    if (!searchQuery.StartsWith("http"))
+                    {
+                        searchQuery = "https://" + searchQuery;
+                    }
+                    webView21.Source = new Uri(searchQuery);
+                }
+            }
         }
 
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        private void btn_back_Click(object sender, EventArgs e)
         {
+            if (webView21.CanGoBack) webView21.GoBack();
+        }
 
+        private void btn_forward_Click(object sender, EventArgs e)
+        {
+            if (webView21.CanGoForward) webView21.GoForward();
+        }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            webView21.Reload();
+        }
+
+        private void txt_search_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btn_search.PerformClick();
+                e.SuppressKeyPress = true;
+            }
         }
     }
 }
