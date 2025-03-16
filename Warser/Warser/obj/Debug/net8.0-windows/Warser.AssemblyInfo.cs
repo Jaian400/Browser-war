@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Warser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee96d4f133c7fa24ff0278eb30b08b581be2c889")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+660143949644b284cc911f683006550c672c8b3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Warser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Warser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
